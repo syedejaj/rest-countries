@@ -3,4 +3,35 @@
     padding: 15px;
     border: 1px solid salmon;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.country-btn {
+    background-color: red;
+    color: white;
+}
+
+.country-btn:hover {
+    background-color: green;
+}
+
+.mark-btn {
+    background-color: green;
+    color: white;
+}
+
+.mark-btn:hover {
+    background-color: red;
+}
+
+.visited {
+    background-color: bisque;
+}
+
+.btn-align {
+    display: flex;
+    gap: 5px;
 }
